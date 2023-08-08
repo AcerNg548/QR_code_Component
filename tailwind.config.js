@@ -5,14 +5,21 @@ module.exports = {
     './components/**/*.{js,ts,jsx,tsx,mdx}',
     './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
+  mode: "jit",
   theme: {
-    extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
-      },
-    },
+    screens: {
+      desktop: { max: "1440px" },
+      // => @media (max-width: 1440px) { ... }
+  
+      tablet: { max: "834px" },
+      // => @media (max-width: 834px) { ... }
+  
+      mobile: { max: "375px" },
+      // => @media (max-width: 375px) { ... }
+
+      mobile1: { max: "360px" },
+      // => @media (max-width: 360px) { ... }
+  },
   },
   plugins: [],
 }
