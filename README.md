@@ -10,12 +10,12 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 #### Desktop mock
 <div align="center">
-  <img src="./desktop mock.png" width="600" height="300"/>
+  <img src="./desktop mock.png" width="504" height="300"/>
 </div>
 
 #### Mobile mock
 <div align="center">
-  <img src="./mobile mock.png" width="600" height="300"/>
+  <img src="./mobile mock.png" width="200" height="393"/>
 </div>
 
 ### Links
@@ -39,4 +39,4 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ## Acknowledgments
 
-Shout out to [@youngancient](https://github.com/youngancient) for introducing e to Front-end Mentor
+Shout out to [@youngancient](https://github.com/youngancient) for introducing me to Front-end Mentor
